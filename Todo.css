@@ -1,0 +1,160 @@
+/* Todo.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fbfbff;
+  margin: 10;
+  padding: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 100px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #666;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+#inputs {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#newTask {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.button {
+  padding: 7px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#todoList li,
+#donelist li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#todoList li input[type="checkbox"],
+#donelist li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#donelist {
+  color: #666;
+}
+
+
+
+
+#todoList {
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+}
+
+#todoList li {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#donelist {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+#donelist li {
+  background-color: #e6e6e6;
+  padding: 10px;
+  border-radius: 5px;
+}
+.delBtn{
+  padding: 7px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-left: 5px;
+
+}
+.editBtn{
+  padding: 7px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-left: 5px;
+
+
+}
+.undoBtn{
+  padding: 7px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-left: 5px;
+
+
+}
+li {
+  display: flex;  /* Use flexbox to align items */
+  justify-content: space-between; /* Distribute items evenly, pushing buttons to the right */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 10px; /* Add some space between list items */
+}
+
+.editBtn, .delBtn, .undoBtn {
+  margin-left: 10px; /* Add margin between buttons */
+}
+
+
+  
